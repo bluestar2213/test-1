@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>김동하 | 포트폴리오</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=Montserrat:wght@600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="bg">
+    <span class="orb orb--one"></span>
+    <span class="orb orb--two"></span>
+    <span class="orb orb--three"></span>
+  </div>
+
+  <header class="site-header">
+    <div class="logo">Portfolio</div>
+    <nav class="nav" aria-label="주요 메뉴">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Records</a>
+      <a href="#life">Growth & Mindset</a>
+      <a href="#notes">Notes</a>
+    </nav>
+    <button class="menu" type="button" aria-label="메뉴 열기">Menu</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-text">
+        <p class="eyebrow">달을 향해 쏴라, 빚나가도 별이 될테니</p>
+        <h1>
+          김동하
+          <span>Electronic Engineer</span>
+        </h1>
+        <p class="summary">
+          GaN 기반의 전력반도체 설계와 응용분야의 연구를 통해 효율적인 에너지 솔루션을 개발하는 데 기여하고 있습니다.
+        </p>
+        <div class="cta">
+          <a class="btn primary" href="https://blog.naver.com/void_85" target="_blank" rel="noopener">홈페이지 방문</a>
+          <a class="btn ghost" href="">연구 및 개발과정 살펴보기</a>
+        </div>
+        <div class="meta">
+          <span>Power Semiconductor Device Lab.</span>
+        </div>
+      </div>
+      <div class="hero-card card" aria-label="명함 카드">
+        <div class="card-photo">
+          <img src="profile.jpeg" alt="프로필 사진" />
+        </div>
+        <div class="card-info">
+          <div>
+            <p class="label">Name</p>
+            <p class="value">김동하</p>
+          </div>
+          <div>
+            <p class="label">Phone</p>
+            <button class="value copy-text" type="button" data-copy="010-5929-2820">010-5929-2820</button>
+          </div>
+          <div>
+            <p class="label">Email</p>
+            <button class="value email copy-text" type="button" data-copy="regulus0285@gmail.com">
+              regulus0285@gmail.com
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-title">
+        <h2>About</h2>
+        <p>'나'라는 사람을 소개합니다.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>나에 대하여</h3>
+
+          </p>
+          <ul class="about-list">
+            <li><strong>생일</strong><span>2002.08.05</span></li>
+            <li><strong>취미</strong><span>헬스, 독서, 여행</span></li>
+            <li><strong>좋아하는 것</strong><span> 자동차, 음식, 여행 </span></li>
+            <li><strong>싫어하는 것</strong><span> 여름, 벌레 </span></li>
+            <li><strong>관심분야 </strong><span> 제태크, 외국어 </span></li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>나의 키워드</h3>
+          <ul class="stats">
+            <li>
+              <strong>끈기</strong>
+              <span>한 번 목표를 세우면 포기하지 않고 끝까지 도전합니다.</span>
+            </li>
+            <li>
+              <strong>기록과 성찰</strong>
+              <span>매일매일을 기록하고 그 과정에서 성찰하며 성장합니다.</span>
+            </li>
+            <li>
+              <strong>규칙성</strong>
+              <span>규칙적인 생활 습관을 바탕으로 일관된 성장을 추구합니다.</span>
+            </li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>요약</h3>
+          <div class="tags">
+            <span>#기록</span>
+            <span>#사진</span>
+            <span>#여행</span>
+            <span>#성장</span>
+            <span>#독서</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section skills education">
+      <div class="section-title">
+        <h2>Records</h2>
+        <p>학력, 알바·현장 경험, 자격증, 수상 이력을 정리합니다.</p>
+      </div>
+      <div class="education-grid">
+        <div class="education-card">
+          <h3>학력</h3>
+          <ul class="edu-list">
+            <li><strong>창원중앙고등학교</strong><span>졸업 : 2021.02. </span></li>
+            <li><strong>경상국립대학교 반도체공학과</strong><span> 졸업 예정 : 2027.02. </span></li>
+          </ul>
+        </div>
+        <div class="education-card education-card--work">
+          <h3> 알바 및 실무이력 </h3>
+          <ul class="edu-list">
+            <li><strong>AST테크 </strong><span> 컴퓨터 수리,설치 · 2023.11 ~ 2024.02</span></li>
+            <li><strong>미래메디컬 </strong><span> 의료기기 재고조사 및 납품 · 2024.04 ~ 2026.02</span></li>
+          </ul>
+        </div>
+        <div class="education-card">
+          <h3>자격증</h3>
+          <ul class="edu-list">
+            <li><strong>ITQ 정보기술자격증</strong><span>취득 (2021.07)</span></li>
+            <li><strong>운전면허 1종보통</strong><span>취득 (2023.12)</span></li>
+            <li><strong>TOEIC</strong><span>취득 (2025.12)</span></li>
+          </ul>
+        </div>
+        <div class="education-card">
+          <h3>수상 이력</h3>
+          <ul class="edu-list">
+            <li><strong>수상 1</strong><span>대회/기관 · 연도</span></li>
+            <li><strong>수상 2</strong><span>대회/기관 · 연도</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="education-note"></div>
+    </section>
+
+    <section id="life" class="section timeline">
+      <div class="section-title">
+        <h2>Growth & Mindset</h2>
+        <p>성장배경과 마인드셋을 소개합니다.</p>
+      </div>
+      <div class="growth">
+        <div class="growth-block">
+          <h3>저는 이런 사람입니다.</h3>
+          <p> 매일매일을 기록하고 성찰하며 성장하기를 추구하는 사람입니다. 중학교 2학년부터 쓰기 시작한 일기가 지금까지 10년이 넘는 시간 동안 저의 성장과 변화를 기록해 주었습니다.
+            어제보다 나은 사람이 되기 위해 매일을 노력했고, 그 과정에서 끈기와 규칙적인 삶의 중요성을 깨달아 그것들을 실천하는 삶을 살고 있습니다.</p>
+          <p> 실패를 두려워하지 않는 사람입니다. 자격증 시험, 입시, 면접 등에서 수많은 실패를 경험했지만, 실패를 두려워하지 않고 끊임없이 도전했습니다.
+            지금도 실패를 경험하지만, 그것을 경험이라고 생각하며 끊임없이 노력하고 있습니다.
+          </p>
+          <p> 더 나은 미래를 위해 항상 노력하는 사람입니다. 매일매일 운동과 일기를 통해 더 나은 미래를 향해 나아가고 있습니다.
+            현실에 안주하지 않고, 비록 어려움에 때때로 방황하더라도 끊임없이 성장하려는 자세를 유지하고 매 순간 도전합니다. </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="notes" class="section notes">
+      <div class="section-title">
+        <h2>Notes</h2>
+        <p>배움과 기록을 꾸준히 쌓아가는 과정을 정리합니다.</p>
+      </div>
+      <div class="notes-grid">
+        <a class="notes-card" href="https://blog.naver.com/void_85" target="_blank" rel="noopener">
+          <span class="step">01</span>
+          <h3>Daily Log</h3>
+          <p>일상의 루틴과 작은 성취를 기록합니다.</p>
+        </a>
+        <a class="notes-card" href="">
+          <span class="step">02</span>
+          <h3>Learning Notes</h3>
+          <p>수업과 공부 내용을 정리해 축적합니다.</p>
+        </a>
+        <div class="notes-card">
+          <span class="step">03</span>
+          <h3>Research Journal</h3>
+          <p>실험 과정과 생각의 흐름을 기록합니다.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 KimDongha. All rights reserved.</p>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+
+  <div class="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel" role="dialog" aria-modal="true">
+      <button class="modal-close" type="button" data-close>닫기</button>
+      <h3 class="modal-title"></h3>
+      <p class="modal-body"></p>
+      <ul class="modal-list"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
